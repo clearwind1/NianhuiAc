@@ -1,0 +1,1108 @@
+{
+	"referenceInfoList": {
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/i18n/cn.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/MainContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/Ticker.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Timer.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/setTimeout.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/BitmapFont.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/devices/HTML5DeviceContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/Resource.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/extends.ts": [],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Logger.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/i18n/cn.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/IHashObject.ts": [],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/HashObject.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/IHashObject.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Recycler.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/HashObject.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/getTimer.ts": [],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/callLater.ts": [],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/RenderCommand.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/RendererContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/MainContext.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/player/RenderContext.ts": [],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/Event.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/HashObject.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/IEventDispatcher.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Recycler.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/HTTPStatusEvent.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/Event.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/IEventDispatcher.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/SoundEvent.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/Event.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/FocusEvent.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/Event.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/IOErrorEvent.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/Event.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/IEventDispatcher.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/TouchEvent.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/Event.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/DisplayObject.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Point.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/IEventDispatcher.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/TimerEvent.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/Event.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/IEventDispatcher.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/TextEvent.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/Event.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/IEventDispatcher.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/ProgressEvent.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/Event.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/IEventDispatcher.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/EventPhase.ts": [],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/IEventDispatcher.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/IHashObject.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/Event.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/EventDispatcher.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/HashObject.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/IEventDispatcher.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Logger.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/Event.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/MainContext.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Profiler.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/EventDispatcher.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/RendererContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/interactive/TouchContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/net/NetContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/devices/DeviceContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/Stage.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/Ticker.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/RenderCommand.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/callLater.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/callLater.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/callLater.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/Event.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/callLater.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/DisplayObject.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Recycler.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/callLater.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/callLater.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Profiler.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/DisplayObjectContainer.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/MainContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/TextField.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/Ticker.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/Event.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/RendererContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/getTimer.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/Ticker.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/MainContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/setTimeout.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/EventDispatcher.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Logger.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/getTimer.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Logger.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/layout/HorizontalAlign.ts": [],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/layout/VerticalAlign.ts": [],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Timer.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/EventDispatcher.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/getTimer.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/Ticker.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/TimerEvent.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/getQualifiedClassName.ts": [],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/getDefinitionByName.ts": [],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/setTimeout.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/Ticker.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/setInterval.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/Ticker.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/hasDefinition.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/getDefinitionByName.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/toColorString.ts": [],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Matrix.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Point.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/jslib/NumberUtils.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/HashObject.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Point.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/HashObject.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/jslib/NumberUtils.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Matrix.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Rectangle.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/HashObject.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Point.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/ColorTransform.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/HashObject.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Transform.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/HashObject.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/DisplayObject.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Matrix.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/ColorTransform.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/SAXParser.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/HashObject.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Logger.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/StageDelegate.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/Browser.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/HashObject.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Logger.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/RenderFilter.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Rectangle.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/MainContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/Event.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Matrix.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/Texture.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/HashObject.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/RendererContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/DisplayObject.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Injector.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/getQualifiedClassName.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Logger.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/filters/BitmapFilterQuality.ts": [],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/filters/Filter.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/HashObject.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/filters/BlurFilter.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/filters/Filter.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/filters/ColorMatrixFilter.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/filters/Filter.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/filters/GlowFilter.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/filters/Filter.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/filters/DropShadowFilter.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/filters/GlowFilter.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/BlendMode.ts": [],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/DisplayObjectProperties.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Rectangle.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/DisplayObjectContainer.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/Stage.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/filters/Filter.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/DisplayObjectPrivateProperties.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Rectangle.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/RenderTexture.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/DisplayObject.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/DisplayObjectProperties.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/DisplayObjectPrivateProperties.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Matrix.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Rectangle.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/RenderFilter.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Point.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/callLater.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/RenderTexture.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/EventDispatcher.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/RenderFilter.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/Texture.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/DisplayObjectContainer.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/jslib/NumberUtils.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/RendererContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/MainContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/filters/ColorMatrixFilter.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/RenderCommand.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/Stage.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/Event.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/filters/Filter.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Transform.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/DisplayObjectContainer.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/DisplayObject.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Rectangle.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Matrix.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Logger.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/Event.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/RenderCommand.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/RendererContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/MainContext.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/StageScaleMode.ts": [],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/Stage.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/StageDelegate.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/StageDelegate.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/StageDelegate.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/StageScaleMode.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/StageDelegate.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/StageDelegate.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/StageDelegate.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/StageDelegate.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/DisplayObjectContainer.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/Event.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Logger.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/MainContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/DisplayObject.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Matrix.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Rectangle.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/StageDelegate.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Logger.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/ScrollViewProperties.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Point.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/TouchEvent.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/tween/Tween.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/ScrollView.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/ScrollViewProperties.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Rectangle.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Timer.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/MainContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/getTimer.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/tween/Tween.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/tween/Ease.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/DisplayObjectContainer.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/DisplayObject.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/Event.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/TouchEvent.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/TimerEvent.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Logger.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/BitmapFillMode.ts": [],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/Bitmap.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/MainContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Rectangle.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/DisplayObject.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/RenderFilter.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/Texture.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/RendererContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/RenderFilter.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/BitmapText.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Rectangle.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/DisplayObject.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/BitmapFont.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/RendererContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Logger.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/RenderFilter.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/GradientType.ts": [],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/Graphics.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Matrix.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/MainContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Rectangle.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/player/RenderContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/GradientType.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/RendererContext.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/Shape.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/DisplayObject.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Rectangle.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/Graphics.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/RendererContext.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/Sprite.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Rectangle.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/DisplayObjectContainer.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/Graphics.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/RendererContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Matrix.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/DisplayObject.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/TextFieldUtils.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/TextField.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/ITextElement.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/TextFieldType.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/layout/HorizontalAlign.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/layout/VerticalAlign.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/ITextElement.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/ITextElement.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/ITextElement.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/TextFieldProperties.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/TextField.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/ITextElement.ts": [],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/TextField.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/TextFieldProperties.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/InputController.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/TextFieldType.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/ITextElement.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/Graphics.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Rectangle.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/ITextElement.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/MainContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/ITextElement.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/ITextElement.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/TouchEvent.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/TextEvent.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/DisplayObject.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/toColorString.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/TextFieldUtils.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Logger.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/RendererContext.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/HtmlTextParser.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/ITextElement.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/ITextElement.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/TextFieldType.ts": [],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/SpriteSheet.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/MainContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/HashObject.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/Texture.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/InputController.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/display/StageText.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/TouchEvent.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/MainContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/FocusEvent.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/Event.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/Stage.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/HashObject.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/TextField.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/DisplayObject.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/BitmapFont.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/SpriteSheet.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/Texture.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/MovieClip.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Rectangle.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/DisplayObject.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/RenderFilter.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/Texture.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/MovieClipData.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/RendererContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/FrameLabel.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Logger.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/Event.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/Ticker.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/FrameLabel.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/EventDispatcher.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/MovieClipData.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/HashObject.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/SpriteSheet.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/Texture.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/FrameLabel.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/MovieClipDataFactory.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/EventDispatcher.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/SpriteSheet.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/Texture.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/MovieClipData.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/display/StageText.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/TextField.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/EventDispatcher.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/net/URLRequestMethod.ts": [],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/net/URLLoaderDataFormat.ts": [],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/net/URLVariables.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/HashObject.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/net/URLRequestHeader.ts": [],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/net/URLRequest.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/HashObject.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/net/URLRequestMethod.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/net/URLRequestHeader.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/net/URLLoader.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/EventDispatcher.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/net/URLRequest.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/net/URLLoaderDataFormat.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/MainContext.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/Texture.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/MainContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/PromiseObject.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/HashObject.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/Browser.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/RenderTexture.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/RendererContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Rectangle.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/DisplayObject.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/MainContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/DisplayObjectContainer.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/RenderFilter.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/Texture.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/RendererContext.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Matrix.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/ITextElement.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/TextField.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/HashObject.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Profiler.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/Texture.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Rectangle.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/filters/Filter.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/BlendMode.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Logger.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/interactive/InteractionMode.ts": [],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/interactive/TouchContext.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/HashObject.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/TouchEvent.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/MainContext.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/net/NetContext.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/HashObject.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/net/URLLoader.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/net/URLRequest.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/net/URLRequestMethod.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/net/URLVariables.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/devices/DeviceContext.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/HashObject.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/external/ExternalInterface.ts": [],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/Browser.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/MainContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/HashObject.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Logger.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/localStorage/localStorage.ts": [],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/XML.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/SAXParser.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/ByteArray.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Logger.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/getOption.ts": [],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/tween/Tween.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/EventDispatcher.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/Ticker.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/tween/Ease.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Logger.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/media/IAudio.ts": [],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/media/Sound.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/EventDispatcher.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/SoundEvent.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/Event.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/media/IAudio.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Logger.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/jslib/NumberUtils.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Matrix.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Logger.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/PromiseObject.ts": [],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/net/IVersionController.ts": [],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/devices/HTML5DeviceContext.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/getTimer.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/MainContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Logger.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/devices/DeviceContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/Event.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/HTML5CanvasRenderer.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/Browser.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/StageDelegate.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/MainContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/Event.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/RendererContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/getTimer.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Matrix.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/BlendMode.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/ITextElement.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/TextFieldProperties.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/TextField.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/Graphics.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/Texture.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/RenderFilter.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/Stage.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/toColorString.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Rectangle.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/IWebGLTemplate.ts": [],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/WebGLRenderer.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/TextField.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/RenderTexture.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/IWebGLTemplate.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/RendererContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/MainContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/RenderFilter.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/TextFieldProperties.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/TextFieldType.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/DisplayObject.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Rectangle.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/DisplayObjectContainer.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/Browser.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/StageDelegate.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/Event.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/BlendMode.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/jslib/NumberUtils.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/ITextElement.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Matrix.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/Graphics.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/webgl/WebGLShaderManager.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/Texture.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/HTML5CanvasRenderer.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Logger.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/Stage.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/filters/Filter.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/filters/DropShadowFilter.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/getTimer.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Profiler.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/webgl/shaders/ColorTransformShader.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/webgl/shaders/BlurShader.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/filters/BlurFilter.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/filters/ColorMatrixFilter.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/webgl/WebGLUtils.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Logger.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Logger.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/webgl/shaders/EgretShader.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/webgl/WebGLUtils.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/webgl/shaders/ColorTransformShader.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/webgl/shaders/EgretShader.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/webgl/shaders/BlurShader.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/webgl/shaders/EgretShader.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/webgl/shaders/PrimitiveShader.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/webgl/WebGLUtils.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/webgl/WebGLShaderManager.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/webgl/shaders/EgretShader.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/webgl/shaders/PrimitiveShader.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/webgl/shaders/ColorTransformShader.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/webgl/shaders/BlurShader.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/net/HTML5NetContext.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/net/IVersionController.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/Html5Capatibility.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/setTimeout.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/setTimeout.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/net/NetContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/Texture.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/net/URLLoader.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/net/URLLoaderDataFormat.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/Html5Capatibility.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/net/URLRequest.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/net/URLRequestMethod.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/net/URLVariables.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/HTTPStatusEvent.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/IOErrorEvent.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/callLater.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/Event.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/audio/Html5Audio.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/media/Sound.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/audio/QQAudio.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/audio/WebAudio.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/interactive/HTML5TouchContext.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/Browser.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/MainContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/Event.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/interactive/TouchContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/StageDelegate.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/display/HTML5StageText.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Point.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/display/HTML5StageText.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/StageDelegate.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/Event.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/TextField.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/TextFieldProperties.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/Browser.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/MainContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/callLater.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/display/StageText.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Rectangle.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/audio/Html5Audio.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/callLater.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/media/IAudio.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/Html5Capatibility.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/audio/WebAudio.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/callLater.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/media/IAudio.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/audio/QQAudio.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/media/Sound.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/callLater.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/media/IAudio.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/Html5Capatibility.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/audio/Html5Audio.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/audio/QQAudio.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/audio/WebAudio.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/HashObject.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/devices/NativeDeviceContext.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Logger.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/external/ExternalInterface.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/StageDelegate.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/StageDelegate.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/StageDelegate.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Logger.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/MainContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/Event.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/RenderTexture.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/NativeRendererContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/getOption.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/HashObject.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/TextField.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/NativeRendererContext.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/jslib/NumberUtils.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/MainContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Matrix.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/BlendMode.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/ITextElement.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/TextFieldProperties.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/TextField.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/Graphics.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/RendererContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/Texture.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/filters/Filter.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/filters/DropShadowFilter.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/RenderTexture.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Rectangle.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/filters/ColorMatrixFilter.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/interactive/NativeTouchContext.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/MainContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/interactive/TouchContext.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/net/NativeNetContext.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/net/IVersionController.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/PromiseObject.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/net/URLRequestHeader.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/IOErrorEvent.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/media/Sound.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/callLater.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/Texture.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/Event.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/net/NetContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/net/URLLoader.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/net/URLLoaderDataFormat.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/net/URLRequest.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/net/URLRequestMethod.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/net/URLVariables.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/callLater.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Logger.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/audio/NativeAudio.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/display/NativeStageText.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/TextField.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/DisplayObjectContainer.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/Shape.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/layout/HorizontalAlign.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/Stage.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/MainContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/Event.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/display/StageText.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/net/NativeResourceLoader.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/EventDispatcher.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/PromiseObject.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/ProgressEvent.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/Event.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/IOErrorEvent.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/audio/NativeAudio.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/media/Sound.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/callLater.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/net/NativeNetContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/PromiseObject.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/media/IAudio.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/version/DefaultLoadingView.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/TextField.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/MainContext.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/DisplayObjectContainer.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/version/ILoadingView.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/version/ILoadingView.ts": [],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/version/Html5VersionController.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/EventDispatcher.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/net/IVersionController.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/version/NativeVersionController.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/EventDispatcher.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/Event.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/version/ILoadingView.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/net/IVersionController.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/PromiseObject.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/events/ResourceEvent.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/Event.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/IEventDispatcher.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/core/ResourceItem.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/core/ResourceItem.ts": [],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/core/ResourceConfig.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Logger.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/Resource.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/core/ResourceItem.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/Resource.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/Resource.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/core/ResourceLoader.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/EventDispatcher.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Logger.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Injector.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/core/ResourceItem.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/Resource.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/events/ResourceEvent.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/analyzer/AnalyzerBase.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/analyzer/AnalyzerBase.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/HashObject.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/core/ResourceConfig.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/core/ResourceItem.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/Resource.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/Resource.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/analyzer/BinAnalyzer.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/net/URLLoader.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/net/URLRequest.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/net/URLLoaderDataFormat.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Recycler.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/Event.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/IOErrorEvent.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/analyzer/AnalyzerBase.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/core/ResourceItem.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/Resource.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/Resource.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/Resource.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/analyzer/ImageAnalyzer.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/net/URLLoaderDataFormat.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Rectangle.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/analyzer/BinAnalyzer.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/core/ResourceItem.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/analyzer/JsonAnalyzer.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/net/URLLoaderDataFormat.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Logger.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/analyzer/BinAnalyzer.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/core/ResourceItem.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/analyzer/TextAnalyzer.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/net/URLLoaderDataFormat.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/analyzer/BinAnalyzer.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/analyzer/SheetAnalyzer.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/net/URLLoaderDataFormat.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/analyzer/AnalyzerBase.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/SpriteSheet.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/Event.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/net/URLLoader.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Logger.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/Texture.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Rectangle.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/analyzer/BinAnalyzer.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/Resource.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/core/ResourceItem.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/Resource.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/analyzer/FontAnalyzer.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/Texture.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/BitmapFont.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/analyzer/SheetAnalyzer.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/core/ResourceItem.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/analyzer/SoundAnalyzer.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/net/URLLoaderDataFormat.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/media/Sound.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/analyzer/BinAnalyzer.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/core/ResourceItem.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/analyzer/XMLAnalyzer.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/net/URLLoaderDataFormat.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/XML.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/analyzer/BinAnalyzer.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/core/ResourceItem.ts"
+		],
+		"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/Resource.ts": [
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/EventDispatcher.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Injector.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/callLater.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/analyzer/AnalyzerBase.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/core/ResourceItem.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/core/ResourceLoader.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/analyzer/BinAnalyzer.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/analyzer/ImageAnalyzer.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/analyzer/TextAnalyzer.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/analyzer/JsonAnalyzer.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/analyzer/SheetAnalyzer.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/analyzer/FontAnalyzer.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/analyzer/SoundAnalyzer.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/analyzer/XMLAnalyzer.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/core/ResourceConfig.ts",
+			"/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/events/ResourceEvent.ts"
+		]
+	},
+	"classNameToPath": {
+		"egret.egret_string_code": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/i18n/cn.ts",
+		"__extends": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/extends.ts",
+		"egret.Logger": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Logger.ts",
+		"egret.getString": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Logger.ts",
+		"egret.$error": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Logger.ts",
+		"egret.$warn": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Logger.ts",
+		"egret.IHashObject": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/IHashObject.ts",
+		"egret.HashObject": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/HashObject.ts",
+		"egret.Recycler": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Recycler.ts",
+		"egret.__START_TIME": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/getTimer.ts",
+		"egret.getTimer": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/getTimer.ts",
+		"egret.__callLaterFunctionList": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/callLater.ts",
+		"egret.__callLaterThisList": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/callLater.ts",
+		"egret.__callLaterArgsList": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/callLater.ts",
+		"egret.callLater": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/callLater.ts",
+		"egret.__callAsyncFunctionList": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/callLater.ts",
+		"egret.__callAsyncThisList": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/callLater.ts",
+		"egret.__callAsyncArgsList": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/callLater.ts",
+		"egret.__callAsync": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/callLater.ts",
+		"egret.RenderCommand": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/RenderCommand.ts",
+		"egret.RenderContext": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/player/RenderContext.ts",
+		"egret.Event": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/Event.ts",
+		"egret.HTTPStatusEvent": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/HTTPStatusEvent.ts",
+		"egret.SoundEvent": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/SoundEvent.ts",
+		"egret.FocusEvent": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/FocusEvent.ts",
+		"egret.IOErrorEvent": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/IOErrorEvent.ts",
+		"egret.TouchEvent": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/TouchEvent.ts",
+		"egret.TimerEvent": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/TimerEvent.ts",
+		"egret.TextEvent": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/TextEvent.ts",
+		"egret.ProgressEvent": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/ProgressEvent.ts",
+		"egret.EventPhase": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/EventPhase.ts",
+		"egret.IEventDispatcher": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/IEventDispatcher.ts",
+		"egret.EventDispatcher": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/events/EventDispatcher.ts",
+		"egret.MainContext": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/MainContext.ts",
+		"testDeviceType": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/MainContext.ts",
+		"testRuntimeType": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/MainContext.ts",
+		"egret.Profiler": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Profiler.ts",
+		"egret.Ticker": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/Ticker.ts",
+		"egret.HorizontalAlign": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/layout/HorizontalAlign.ts",
+		"egret.VerticalAlign": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/layout/VerticalAlign.ts",
+		"egret.Timer": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Timer.ts",
+		"egret.getQualifiedClassName": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/getQualifiedClassName.ts",
+		"egret.getQualifiedSuperclassName": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/getQualifiedClassName.ts",
+		"egret.getDefinitionByName": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/getDefinitionByName.ts",
+		"__global": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/getDefinitionByName.ts",
+		"egret.setTimeout": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/setTimeout.ts",
+		"egret.clearTimeout": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/setTimeout.ts",
+		"egret.setInterval": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/setInterval.ts",
+		"egret.clearInterval": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/setInterval.ts",
+		"egret.hasDefinition": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/hasDefinition.ts",
+		"egret.toColorString": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/toColorString.ts",
+		"egret.Matrix": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Matrix.ts",
+		"egret.Point": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Point.ts",
+		"egret.Rectangle": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Rectangle.ts",
+		"egret.ColorTransform": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/ColorTransform.ts",
+		"egret.Transform": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/geom/Transform.ts",
+		"egret.SAXParser": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/SAXParser.ts",
+		"egret.StageDelegate": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/StageDelegate.ts",
+		"egret.ResolutionPolicy": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/StageDelegate.ts",
+		"egret.ContainerStrategy": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/StageDelegate.ts",
+		"egret.EqualToFrame": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/StageDelegate.ts",
+		"egret.ContentStrategy": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/StageDelegate.ts",
+		"egret.FixedHeight": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/StageDelegate.ts",
+		"egret.FixedWidth": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/StageDelegate.ts",
+		"egret.FixedSize": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/StageDelegate.ts",
+		"egret.NoScale": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/StageDelegate.ts",
+		"egret.ShowAll": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/StageDelegate.ts",
+		"egret.FullScreen": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/StageDelegate.ts",
+		"egret.RenderFilter": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/RenderFilter.ts",
+		"egret.RenderData": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/RenderFilter.ts",
+		"egret.Injector": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/Injector.ts",
+		"egret.Filter": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/filters/Filter.ts",
+		"egret.BlurFilter": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/filters/BlurFilter.ts",
+		"egret.ColorMatrixFilter": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/filters/ColorMatrixFilter.ts",
+		"egret.GlowFilter": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/filters/GlowFilter.ts",
+		"egret.DropShadowFilter": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/filters/DropShadowFilter.ts",
+		"egret.BlendMode": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/BlendMode.ts",
+		"egret.DisplayObjectProperties": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/DisplayObjectProperties.ts",
+		"egret.DisplayObjectPrivateProperties": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/DisplayObjectPrivateProperties.ts",
+		"egret.DisplayObject": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/DisplayObject.ts",
+		"egret.DisplayObjectContainer": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/DisplayObjectContainer.ts",
+		"egret.StageScaleMode": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/StageScaleMode.ts",
+		"egret.Stage": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/Stage.ts",
+		"egret.ScrollViewProperties": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/ScrollViewProperties.ts",
+		"egret.ScrollView": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/ScrollView.ts",
+		"egret.BitmapFillMode": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/BitmapFillMode.ts",
+		"egret.Bitmap": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/Bitmap.ts",
+		"egret.BitmapText": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/BitmapText.ts",
+		"egret.GradientType": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/GradientType.ts",
+		"egret.Graphics": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/Graphics.ts",
+		"egret.Command": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/Graphics.ts",
+		"egret.Shape": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/Shape.ts",
+		"egret.Sprite": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/Sprite.ts",
+		"egret.TextFieldUtils": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/TextFieldUtils.ts",
+		"egret.TextFieldProperties": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/TextFieldProperties.ts",
+		"egret.IHitTextElement": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/ITextElement.ts",
+		"egret.ITextStyle": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/ITextElement.ts",
+		"egret.ITextElement": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/ITextElement.ts",
+		"egret.IWTextElement": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/ITextElement.ts",
+		"egret.ILineElement": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/ITextElement.ts",
+		"egret.TextField": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/TextField.ts",
+		"egret.HtmlTextParser": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/HtmlTextParser.ts",
+		"egret.TextFieldType": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/TextFieldType.ts",
+		"egret.SpriteSheet": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/SpriteSheet.ts",
+		"egret.InputController": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/InputController.ts",
+		"egret.BitmapFont": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/text/BitmapFont.ts",
+		"egret.MovieClip": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/MovieClip.ts",
+		"egret.FrameLabel": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/FrameLabel.ts",
+		"egret.MovieClipData": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/MovieClipData.ts",
+		"egret.MovieClipDataFactory": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/MovieClipDataFactory.ts",
+		"egret.StageText": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/display/StageText.ts",
+		"egret.URLRequestMethod": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/net/URLRequestMethod.ts",
+		"egret.URLLoaderDataFormat": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/net/URLLoaderDataFormat.ts",
+		"egret.URLVariables": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/net/URLVariables.ts",
+		"egret.URLRequestHeader": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/net/URLRequestHeader.ts",
+		"egret.URLRequest": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/net/URLRequest.ts",
+		"egret.URLLoader": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/net/URLLoader.ts",
+		"egret.Texture": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/Texture.ts",
+		"egret.RenderTexture": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/display/RenderTexture.ts",
+		"egret.RendererContext": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/RendererContext.ts",
+		"egret.InteractionMode": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/interactive/InteractionMode.ts",
+		"egret.TouchContext": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/interactive/TouchContext.ts",
+		"egret.NetContext": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/net/NetContext.ts",
+		"egret.DeviceContext": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/devices/DeviceContext.ts",
+		"egret.ExternalInterface": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/external/ExternalInterface.ts",
+		"egret.Browser": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/Browser.ts",
+		"egret.localStorage.getItem": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/localStorage/localStorage.ts",
+		"egret.localStorage.setItem": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/localStorage/localStorage.ts",
+		"egret.localStorage.removeItem": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/localStorage/localStorage.ts",
+		"egret.localStorage.clear": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/localStorage/localStorage.ts",
+		"egret.XML": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/XML.ts",
+		"egret.Endian": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/ByteArray.ts",
+		"egret.ByteArray": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/ByteArray.ts",
+		"egret.getOption": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/utils/getOption.ts",
+		"egret.Tween": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/tween/Tween.ts",
+		"egret.Ease": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/tween/Ease.ts",
+		"egret.IAudio": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/media/IAudio.ts",
+		"egret.Sound": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/media/Sound.ts",
+		"egret.NumberUtils": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/jslib/NumberUtils.ts",
+		"egret_sin_map": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/jslib/NumberUtils.ts",
+		"egret_cos_map": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/jslib/NumberUtils.ts",
+		"NumberUtils_i": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/jslib/NumberUtils.ts",
+		"egret.PromiseObject": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/PromiseObject.ts",
+		"egret.IVersionController": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/net/IVersionController.ts",
+		"egret.HTML5DeviceContext": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/devices/HTML5DeviceContext.ts",
+		"egret_html5_localStorage.getItem": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/devices/HTML5DeviceContext.ts",
+		"egret_html5_localStorage.setItem": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/devices/HTML5DeviceContext.ts",
+		"egret_html5_localStorage.removeItem": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/devices/HTML5DeviceContext.ts",
+		"egret_html5_localStorage.clear": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/devices/HTML5DeviceContext.ts",
+		"egret_html5_localStorage.init": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/devices/HTML5DeviceContext.ts",
+		"egret.HTML5CanvasRenderer": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/HTML5CanvasRenderer.ts",
+		"originCanvas2DFill": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/HTML5CanvasRenderer.ts",
+		"egret.IWebGLTemplate": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/IWebGLTemplate.ts",
+		"egret.WebGLRenderer": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/WebGLRenderer.ts",
+		"egret_webgl_graphics.beginFill": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/WebGLRenderer.ts",
+		"egret_webgl_graphics.beginGradientFill": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/WebGLRenderer.ts",
+		"egret_webgl_graphics.drawRect": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/WebGLRenderer.ts",
+		"egret_webgl_graphics.drawCircle": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/WebGLRenderer.ts",
+		"egret_webgl_graphics.drawRoundRect": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/WebGLRenderer.ts",
+		"egret_webgl_graphics.drawEllipse": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/WebGLRenderer.ts",
+		"egret_webgl_graphics.lineStyle": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/WebGLRenderer.ts",
+		"egret_webgl_graphics.lineTo": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/WebGLRenderer.ts",
+		"egret_webgl_graphics.curveTo": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/WebGLRenderer.ts",
+		"egret_webgl_graphics.cubicCurveTo": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/WebGLRenderer.ts",
+		"egret_webgl_graphics.moveTo": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/WebGLRenderer.ts",
+		"egret_webgl_graphics.clear": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/WebGLRenderer.ts",
+		"egret_webgl_graphics.endFill": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/WebGLRenderer.ts",
+		"egret_webgl_graphics._pushCommand": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/WebGLRenderer.ts",
+		"egret_webgl_graphics._draw": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/WebGLRenderer.ts",
+		"egret_webgl_graphics.Command": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/WebGLRenderer.ts",
+		"egret_webgl_graphics._setStyle": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/WebGLRenderer.ts",
+		"egret_webgl_graphics.init": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/WebGLRenderer.ts",
+		"egret.WebGLUtils": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/webgl/WebGLUtils.ts",
+		"egret.EgretShader": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/webgl/shaders/EgretShader.ts",
+		"egret.ColorTransformShader": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/webgl/shaders/ColorTransformShader.ts",
+		"egret.BlurShader": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/webgl/shaders/BlurShader.ts",
+		"egret.PrimitiveShader": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/webgl/shaders/PrimitiveShader.ts",
+		"egret.WebGLShaderManager": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/webgl/WebGLShaderManager.ts",
+		"egret.HTML5NetContext": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/net/HTML5NetContext.ts",
+		"egret.HTML5TouchContext": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/interactive/HTML5TouchContext.ts",
+		"egret.HTML5StageText": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/display/HTML5StageText.ts",
+		"egret.HTMLInput": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/display/HTML5StageText.ts",
+		"egret.Html5Audio": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/audio/Html5Audio.ts",
+		"egret.WebAudio": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/audio/WebAudio.ts",
+		"AudioBuffer": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/audio/WebAudio.ts",
+		"AudioBufferSourceNode": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/audio/WebAudio.ts",
+		"egret.QQAudio": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/audio/QQAudio.ts",
+		"egret.AudioType": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/Html5Capatibility.ts",
+		"egret.SystemOSType": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/Html5Capatibility.ts",
+		"egret.Html5Capatibility": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/Html5Capatibility.ts",
+		"egret.NativeDeviceContext": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/devices/NativeDeviceContext.ts",
+		"egret_native_external_interface.callBackDic": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/devices/NativeDeviceContext.ts",
+		"egret_native_external_interface.call": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/devices/NativeDeviceContext.ts",
+		"egret_native_external_interface.addCallback": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/devices/NativeDeviceContext.ts",
+		"egret_native_external_interface.onReceivedPluginInfo": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/devices/NativeDeviceContext.ts",
+		"egret_native_external_interface.init": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/devices/NativeDeviceContext.ts",
+		"egret_native_localStorage.filePath": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/devices/NativeDeviceContext.ts",
+		"egret_native_localStorage.getItem": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/devices/NativeDeviceContext.ts",
+		"egret_native_localStorage.setItem": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/devices/NativeDeviceContext.ts",
+		"egret_native_localStorage.removeItem": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/devices/NativeDeviceContext.ts",
+		"egret_native_localStorage.clear": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/devices/NativeDeviceContext.ts",
+		"egret_native_localStorage.save": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/devices/NativeDeviceContext.ts",
+		"egret_native_localStorage.init": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/devices/NativeDeviceContext.ts",
+		"egret.NativeRendererContext": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/NativeRendererContext.ts",
+		"egret_native_graphics": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/renderer/NativeRendererContext.ts",
+		"egret.NativeTouchContext": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/interactive/NativeTouchContext.ts",
+		"egret_native.onTouchesBegin": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/interactive/NativeTouchContext.ts",
+		"egret_native.onTouchesMove": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/interactive/NativeTouchContext.ts",
+		"egret_native.onTouchesEnd": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/interactive/NativeTouchContext.ts",
+		"egret_native.onTouchesCancel": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/interactive/NativeTouchContext.ts",
+		"egret_native.executeTouchCallback": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/interactive/NativeTouchContext.ts",
+		"egret.NativeNetContext": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/net/NativeNetContext.ts",
+		"egret.NativeStageText": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/display/NativeStageText.ts",
+		"egret.NativeResourceLoader": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/net/NativeResourceLoader.ts",
+		"egret.NativeAudio": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/audio/NativeAudio.ts",
+		"egret_native_sound.currentPath": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/egret/context/audio/NativeAudio.ts",
+		"egret.DefaultLoadingView": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/version/DefaultLoadingView.ts",
+		"egret.ILoadingView": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/version/ILoadingView.ts",
+		"egret.Html5VersionController": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/version/Html5VersionController.ts",
+		"egret.NativeVersionController": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/version/NativeVersionController.ts",
+		"RES.ResourceEvent": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/events/ResourceEvent.ts",
+		"RES.ResourceItem": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/core/ResourceItem.ts",
+		"RES.ResourceConfig": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/core/ResourceConfig.ts",
+		"RES.ResourceLoader": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/core/ResourceLoader.ts",
+		"RES.AnalyzerBase": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/analyzer/AnalyzerBase.ts",
+		"RES.BinAnalyzer": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/analyzer/BinAnalyzer.ts",
+		"RES.ImageAnalyzer": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/analyzer/ImageAnalyzer.ts",
+		"RES.JsonAnalyzer": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/analyzer/JsonAnalyzer.ts",
+		"RES.TextAnalyzer": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/analyzer/TextAnalyzer.ts",
+		"RES.SheetAnalyzer": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/analyzer/SheetAnalyzer.ts",
+		"RES.FontAnalyzer": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/analyzer/FontAnalyzer.ts",
+		"RES.SoundAnalyzer": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/analyzer/SoundAnalyzer.ts",
+		"RES.XMLAnalyzer": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/analyzer/XMLAnalyzer.ts",
+		"RES.loadConfig": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/Resource.ts",
+		"RES.loadGroup": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/Resource.ts",
+		"RES.isGroupLoaded": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/Resource.ts",
+		"RES.getGroupByName": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/Resource.ts",
+		"RES.createGroup": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/Resource.ts",
+		"RES.hasRes": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/Resource.ts",
+		"RES.parseConfig": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/Resource.ts",
+		"RES.getRes": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/Resource.ts",
+		"RES.getResAsync": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/Resource.ts",
+		"RES.getResByUrl": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/Resource.ts",
+		"RES.destroyRes": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/Resource.ts",
+		"RES.setMaxLoadingThread": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/Resource.ts",
+		"RES.setMaxRetryTimes": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/Resource.ts",
+		"RES.addEventListener": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/Resource.ts",
+		"RES.removeEventListener": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/Resource.ts",
+		"RES.Resource": "/Users/pior/Library/Application Support/Egret/engine/2.0.2/src/extension/resource/Resource.ts"
+	}
+}
