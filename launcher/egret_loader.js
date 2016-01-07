@@ -33,11 +33,11 @@ egret_h5.startGame = function () {
     context.deviceContext = new egret.HTML5DeviceContext();
     context.netContext = new egret.HTML5NetContext();
 
-    egret.StageDelegate.getInstance().setDesignSize(480, 800);
+    egret.StageDelegate.getInstance().setDesignSize(640, 1136);
     var stage = new egret.Stage();
-    var scaleMode = egret.MainContext.deviceType == egret.MainContext.DEVICE_MOBILE ? egret.StageScaleMode.SHOW_ALL : egret.StageScaleMode.NO_SCALE;
+    var scaleMode = egret.StageScaleMode.SHOW_ALL;//egret.MainContext.deviceType == egret.MainContext.DEVICE_MOBILE ? egret.StageScaleMode.SHOW_ALL : egret.StageScaleMode.NO_SCALE;
     stage.scaleMode = scaleMode;
-    stage.frameRate = 30;
+    stage.frameRate = 60;
     context.stage = stage;
 
     //WebGL is a Egret's beta property. It's off by default.

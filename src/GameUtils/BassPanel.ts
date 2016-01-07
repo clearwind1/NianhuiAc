@@ -43,6 +43,11 @@ module GameUtil
             this.MainStage = stage;
         }
 
+        public static getStage():egret.Stage
+        {
+            return this.MainStage;
+        }
+
         /**
          * 切换场景
          * @param scene {egret.DisplayObjectContainer} 所要切换到的场景

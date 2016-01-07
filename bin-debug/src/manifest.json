@@ -1,4 +1,13 @@
 [
+	"GameUtils/BassPanel.ts",
+	"GameUtils/InputTextFiled.ts",
+	"GameUtils/utils.ts",
+	"GameData.ts",
+	"GameUtils/Menu.ts",
+	"VotePage.ts",
 	"LoadingUI.ts",
+	"ShowPage.ts",
+	"GameUtils/LoadingPanel.ts",
+	"LoginPage.ts",
 	"Main.ts"
 ]

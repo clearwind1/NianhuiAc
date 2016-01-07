@@ -59,6 +59,11 @@ module GameUtil
             this.addEventListener(egret.TouchEvent.TOUCH_RELEASE_OUTSIDE,this.TouchCancel,this);
         }
 
+        public setBackFun(backFun: Function):void
+        {
+            this.backFun = backFun;
+        }
+
         /**
          * 设置按钮的缩放模式，按钮状态只做缩放时可使用
          * @param scale {number} 缩放大小

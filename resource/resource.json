@@ -1,25 +1,83 @@
 {
-	"resources": [
-		{
-			"name": "bgImage",
-			"type": "image",
-			"url": "assets/bg.jpg"
-		},
-		{
-			"name": "egretIcon",
-			"type": "image",
-			"url": "assets/egret_icon.png"
-		},
-		{
-			"name": "description",
-			"type": "json",
-			"url": "config/description.json"
-		}
-	],
-	"groups": [
-		{
-			"name": "preload",
-			"keys": "bgImage,egretIcon"
-		}
-	]
+	"groups":[
+	{
+		"keys":"bgImage,egretIcon,doorl_jpg,doorr_jpg,loadingbar_png,inputframe_png,scrollBall_png,scrollBar_png,headimg_png,handimg_png,greenframe_png,redpacket_png,redpacketback_png,btnframe_png",
+		"name":"preload"
+	}],
+	"resources":[
+	{
+		"name":"bgImage",
+		"type":"image",
+		"url":"assets/bg.jpg"
+	},
+	{
+		"name":"egretIcon",
+		"type":"image",
+		"url":"assets/egret_icon.png"
+	},
+	{
+		"name":"description",
+		"type":"json",
+		"url":"config/description.json"
+	},
+	{
+		"name":"doorl_jpg",
+		"type":"image",
+		"url":"assets/doorl.jpg"
+	},
+	{
+		"name":"doorr_jpg",
+		"type":"image",
+		"url":"assets/doorr.jpg"
+	},
+	{
+		"name":"loadingbar_png",
+		"type":"image",
+		"url":"assets/loadingbar.png"
+	},
+	{
+		"name":"inputframe_png",
+		"type":"image",
+		"url":"assets/inputframe.png"
+	},
+	{
+		"name":"scrollBall_png",
+		"type":"image",
+		"url":"assets/scrollBall.png"
+	},
+	{
+		"name":"scrollBar_png",
+		"type":"image",
+		"url":"assets/scrollBar.png"
+	},
+	{
+		"name":"headimg_png",
+		"type":"image",
+		"url":"assets/headimg.png"
+	},
+	{
+		"name":"handimg_png",
+		"type":"image",
+		"url":"assets/handimg.png"
+	},
+	{
+		"name":"greenframe_png",
+		"type":"image",
+		"url":"assets/greenframe.png"
+	},
+	{
+		"name":"redpacket_png",
+		"type":"image",
+		"url":"assets/redpacket.png"
+	},
+	{
+		"name":"redpacketback_png",
+		"type":"image",
+		"url":"assets/redpacketback.png"
+	},
+	{
+		"name":"btnframe_png",
+		"type":"image",
+		"url":"assets/btnframe.png"
+	}]
 }
