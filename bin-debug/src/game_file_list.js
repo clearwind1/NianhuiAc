@@ -4,6 +4,7 @@ var game_file_list = [
 	"GameUtils/utils.js",
 	"GameData.js",
 	"GameUtils/Menu.js",
+	"GameUtils/Http.js",
 	"VotePage.js",
 	"LoadingUI.js",
 	"ShowPage.js",

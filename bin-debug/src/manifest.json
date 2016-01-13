@@ -4,6 +4,7 @@
 	"GameUtils/utils.ts",
 	"GameData.ts",
 	"GameUtils/Menu.ts",
+	"GameUtils/Http.ts",
 	"VotePage.ts",
 	"LoadingUI.ts",
 	"ShowPage.ts",

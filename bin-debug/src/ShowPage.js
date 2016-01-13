@@ -21,8 +21,8 @@ var HomePage = (function (_super) {
         this.addChild(headimg);
         var userinfo = GameUtil.createTextField(this.mStageW / 2, 320, 30);
         userinfo.textFlow = [
-            { 'text': 'SXD-' + GameData.getInstance().UserInfo['ID'], 'style': { 'textColor': 0x000000 } },
-            { 'text': "\n测试", 'style': { 'textColor': 0x000000 } }
+            { 'text': GameData.getInstance().UserInfo['ID'], 'style': { 'textColor': 0x000000 } },
+            { 'text': "\n" + GameData.getInstance().UserInfo['Name'], 'style': { 'textColor': 0x000000 } }
         ];
         this.addChild(userinfo);
         this.handlimg = GameUtil.createBitmapByName("handimg_png");
@@ -51,24 +51,39 @@ var HomePage = (function (_super) {
     //抢红包
     __egretProto__.snatchRedpacket = function () {
         //console.log("抢红包");
-        var data = {
-            code: 0,
-            msg: 'timeout'
+        var ipstr = window['getIP'];
+        console.log("ipstr=====", ipstr, "ipstr[0]======", ipstr.split('|'));
+        ipstr = ipstr.split('|')[1];
+        var money = Math.floor((Math.random() * 10));
+        console.log("money======", money);
+        var param = {
+            openId: GameData.getInstance().UserInfo['openid'],
+            amount: money,
+            ip: ipstr,
+            nickname: "盛讯达",
+            cardid: GameData.getInstance().UserInfo['ID']
         };
-        this.snatchResult(data);
+        GameUtil.Http.getinstance().send(param, "/weixinpay/pay", this.snatchResult, this);
+        //var redcode: number = Math.floor((Math.random()*100)%3);
+        //
+        //var data: Object = {
+        //    code: redcode,
+        //    msg: 'timeout'
+        //}
+        //this.snatchResult(data);
     };
     //投票
     __egretProto__.voteActive = function () {
+        GameUtil.GameScene.runscene(new VotePage(), GameUtil.GameConfig.TransAlpha, 300);
         //console.log("投票");
-        GameUtil.GameScene.runscene(new VotePage(), GameUtil.GameConfig.TransAlpha);
     };
     __egretProto__.snatchResult = function (data) {
         //时间未到
-        if (data['code'] == 201) {
+        if (data['code'] == 2) {
             // console.log("时间未到");
             var self = this;
             var timeouttip = new GameUtil.Menu(this, "greenframe_png", "greenframe_png", null);
-            timeouttip.addButtonText('下一红包时间:\n19:20~19:30');
+            timeouttip.addButtonText('下一红包时间:\n' + data['msg']);
             timeouttip.getBtnText().textColor = 0xff0000;
             timeouttip.getBtnText().size = 40;
             timeouttip.x = this.mStageW / 2;
@@ -80,14 +95,14 @@ var HomePage = (function (_super) {
         }
         //抢到红包
         if (data['code'] == 1) {
-            this.RedpacketCont(1);
+            this.RedpacketCont(1, data['money']);
         }
         //没抢到红包
         if (data['code'] == 0) {
             this.RedpacketCont(0);
         }
     };
-    __egretProto__.RedpacketCont = function (type) {
+    __egretProto__.RedpacketCont = function (type, money) {
         this.redpacketcon = new egret.DisplayObjectContainer();
         this.addChild(this.redpacketcon);
         var cov = GameUtil.createRect(0, 0, 640, 1136, 0.2);
@@ -112,7 +127,7 @@ var HomePage = (function (_super) {
         this.packetcont.addChild(redpacketbtn);
         //抢红包成功
         if (type == 1) {
-            redpacketext.text = '恭喜你\n抢到了10.0元的红包';
+            redpacketext.text = '恭喜你\n抢到了' + money + '.0元的红包';
             redpacketbtn.addButtonText('继续等红包');
             redpacketbtn.setBackFun(this.getRedpacket);
         }

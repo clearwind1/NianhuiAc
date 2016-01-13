@@ -4,9 +4,11 @@
 var GameData = (function () {
     function GameData() {
         this.UserInfo = {
-            'ID': 0,
+            'ID': '',
             'Name': '',
-            'Sex': ''
+            'Sex': '',
+            'Isvote': 0,
+            'openid': ''
         };
     }
     var __egretProto__ = GameData.prototype;

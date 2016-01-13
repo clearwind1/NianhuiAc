@@ -8,12 +8,13 @@ var GameUtil;
         function GameConfig() {
         }
         var __egretProto__ = GameConfig.prototype;
-        GameConfig.IP = "m.km1818.com/wsyx"; //http连接地址
+        GameConfig.IP = "springmeeting.sxd55.com"; //http连接地址
         GameConfig.bRunFPS = false; //是否显示FPS
         //场景转换
         GameConfig.NullAction = 0; //无动画
         GameConfig.CrossLeft = 1; //从左往右
         GameConfig.TransAlpha = 2; //淡入淡出
+        GameConfig.OpenDoor = 3; //开门方式
         return GameConfig;
     })();
     GameUtil.GameConfig = GameConfig;
@@ -102,6 +103,18 @@ var GameUtil;
         return shp;
     }
     GameUtil.createRect = createRect;
+    function createCircle(x, y, r, alpha, color) {
+        if (alpha === void 0) { alpha = 1; }
+        if (color === void 0) { color = 0x000000; }
+        var shp = new egret.Shape();
+        shp.x = x;
+        shp.y = y;
+        shp.graphics.beginFill(color, alpha);
+        shp.graphics.drawCircle(0, 0, r);
+        shp.graphics.endFill();
+        return shp;
+    }
+    GameUtil.createCircle = createCircle;
     /**
      * 将Object转化成 =& post字符串;
      * @param postData
@@ -189,4 +202,16 @@ var GameUtil;
         }
     }
     GameUtil.clearLocalData = clearLocalData;
+    /**
+     * 获取当前链接参数
+     * @param name 参数名
+     */
+    function getQueryString(name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null)
+            return decodeURI(r[2]);
+        return null;
+    }
+    GameUtil.getQueryString = getQueryString;
 })(GameUtil || (GameUtil = {}));

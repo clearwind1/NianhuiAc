@@ -17,7 +17,7 @@ module GameUtil
 
         private init(alpha:number):void
         {
-            this.coverBg = GameUtil.createRect(0,0,480,800,alpha);
+            this.coverBg = GameUtil.createRect(0,0,640,1136,0);
             this.addChild(this.coverBg);
 
             this.touchEnabled = true;
@@ -35,7 +35,7 @@ module GameUtil
         {
             if(this._instance == null)
             {
-                this._instance = new GameUtil.WaitServerPanel();
+                this._instance = new GameUtil.WaitServerPanel(0);
             }
 
             return this._instance;

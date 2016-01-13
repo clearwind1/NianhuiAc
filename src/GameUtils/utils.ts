@@ -7,13 +7,14 @@ module GameUtil
     //游戏配置
     export class GameConfig
     {
-        public static IP:string = "m.km1818.com/wsyx";        //http连接地址
+        public static IP:string = "springmeeting.sxd55.com";        //http连接地址
         public static bRunFPS:boolean = false;              //是否显示FPS
 
         //场景转换
         public static NullAction:number = 0;            //无动画
         public static CrossLeft:number = 1;             //从左往右
         public static TransAlpha:number = 2;            //淡入淡出
+        public static OpenDoor:number = 3;              //开门方式
 
     }
 
@@ -95,6 +96,18 @@ module GameUtil
         shp.y = y;
         shp.graphics.beginFill(color,alpha);
         shp.graphics.drawRect(0,0,width,height);
+        shp.graphics.endFill();
+        return shp;
+    }
+
+
+    export function createCircle(x:number,y:number,r:number,alpha:number=1,color:number=0x000000):egret.Shape
+    {
+        var shp:egret.Shape = new egret.Shape();
+        shp.x = x;
+        shp.y = y;
+        shp.graphics.beginFill( color, alpha);
+        shp.graphics.drawCircle( 0, 0, r );
         shp.graphics.endFill();
         return shp;
     }
@@ -192,6 +205,16 @@ module GameUtil
             egret.localStorage.clear();
         }
 
+    }
+
+    /**
+     * 获取当前链接参数
+     * @param name 参数名
+     */
+    export function getQueryString(name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null) return decodeURI(r[2]); return null;
     }
 
 }

@@ -1,14 +1,15 @@
 /**
+ * 主页
  * Created by pior on 16/1/6.
  */
 
 class HomePage extends GameUtil.BassPanel
 {
 
-    private handlimg: egret.Bitmap;
-    private handrimg: egret.Bitmap;
+    private handlimg: egret.Bitmap;         //左手
+    private handrimg: egret.Bitmap;         //右手
 
-    private redpacketcon: egret.DisplayObjectContainer;
+    private redpacketcon: egret.DisplayObjectContainer;     //红包信息
 
     public constructor()
     {
@@ -31,10 +32,11 @@ class HomePage extends GameUtil.BassPanel
         headimg.y = 200;
         this.addChild(headimg);
 
+        //用户信息
         var userinfo: egret.TextField = GameUtil.createTextField(this.mStageW/2,320,30);
         userinfo.textFlow = <Array<egret.ITextElement>>[
-            {'text':'SXD-'+GameData.getInstance().UserInfo['ID'],'style':{'textColor':0x000000}},
-            {'text':"\n测试",'style':{'textColor':0x000000}}
+            {'text':GameData.getInstance().UserInfo['ID'],'style':{'textColor':0x000000}},
+            {'text':"\n"+GameData.getInstance().UserInfo['Name'],'style':{'textColor':0x000000}}
         ];
         this.addChild(userinfo);
 
@@ -52,6 +54,7 @@ class HomePage extends GameUtil.BassPanel
 
         egret.Tween.get(this.handrimg,{loop:true}).to({y:220},800).to({y:250},800);
 
+        //抢红包与投票按钮
         var btnfun: Function[] = [this.snatchRedpacket,this.voteActive];
         var btntext: string[] = ['抢红包','为当前节目投票\n#投票排行#'];
         for(var i:number = 0;i < 2;i++){
@@ -71,27 +74,51 @@ class HomePage extends GameUtil.BassPanel
     private snatchRedpacket():void
     {
         //console.log("抢红包");
-        var data: Object = {
-            code: 0,
-            msg: 'timeout'
+
+        var ipstr: string = window['getIP'];
+
+        console.log("ipstr=====",ipstr,"ipstr[0]======",ipstr.split('|'));
+        ipstr = ipstr.split('|')[1];
+
+        var money: number = Math.floor((Math.random()*10));
+        console.log("money======",money);
+
+        var param: Object = {
+            openId: GameData.getInstance().UserInfo['openid'],
+            amount: money,
+            ip: ipstr,
+            nickname: "盛讯达",
+            cardid: GameData.getInstance().UserInfo['ID']
         }
-        this.snatchResult(data);
+        GameUtil.Http.getinstance().send(param,"/weixinpay/pay",this.snatchResult,this);
+
+        //var redcode: number = Math.floor((Math.random()*100)%3);
+        //
+        //var data: Object = {
+        //    code: redcode,
+        //    msg: 'timeout'
+        //}
+        //this.snatchResult(data);
     }
     //投票
     private voteActive():void
     {
+        GameUtil.GameScene.runscene(new VotePage(),GameUtil.GameConfig.TransAlpha,300);
         //console.log("投票");
-        GameUtil.GameScene.runscene(new VotePage(),GameUtil.GameConfig.TransAlpha);
     }
 
+    /**
+     * 抢红包结果
+     * @param data
+     */
     private snatchResult(data:any):void
     {
         //时间未到
-        if(data['code'] == 201){
+        if(data['code'] == 2){
            // console.log("时间未到");
             var self = this;
             var timeouttip: GameUtil.Menu = new GameUtil.Menu(this,"greenframe_png","greenframe_png",null);
-            timeouttip.addButtonText('下一红包时间:\n19:20~19:30');
+            timeouttip.addButtonText('下一红包时间:\n'+data['msg']);
             timeouttip.getBtnText().textColor = 0xff0000;
             timeouttip.getBtnText().size = 40;
             timeouttip.x = this.mStageW/2;
@@ -103,7 +130,7 @@ class HomePage extends GameUtil.BassPanel
         }
         //抢到红包
         if(data['code'] == 1){
-            this.RedpacketCont(1);
+            this.RedpacketCont(1,data['money']);
         }
         //没抢到红包
         if(data['code'] == 0){
@@ -115,7 +142,13 @@ class HomePage extends GameUtil.BassPanel
     private packetcont: egret.DisplayObjectContainer;
     private redpacketimg: egret.Bitmap;
 
-    private RedpacketCont(type:number):void
+    /**
+     * 红包结果显示
+     * @param type  类型，0没成功，1成功
+     * @param money 金额
+     * @constructor
+     */
+    private RedpacketCont(type:number,money?:number):void
     {
         this.redpacketcon = new egret.DisplayObjectContainer();
         this.addChild(this.redpacketcon);
@@ -147,7 +180,7 @@ class HomePage extends GameUtil.BassPanel
 
         //抢红包成功
         if(type == 1){
-            redpacketext.text = '恭喜你\n抢到了10.0元的红包';
+            redpacketext.text = '恭喜你\n抢到了'+money+'.0元的红包';
             redpacketbtn.addButtonText('继续等红包');
             redpacketbtn.setBackFun(this.getRedpacket);
         }
@@ -181,6 +214,7 @@ class HomePage extends GameUtil.BassPanel
             self.handrimg.y = 250;
             egret.Tween.get(self.handlimg,{loop:true}).to({y:220},800).to({y:250},800);
             egret.Tween.get(self.handrimg,{loop:true}).to({y:220},800).to({y:250},800);
+
             self.redpacketimg.scaleX = 1;
 
             egret.Tween.get(redpacketbtn).to({alpha:1},800);
@@ -197,6 +231,7 @@ class HomePage extends GameUtil.BassPanel
     private getoffRedpacket():void
     {
         this.removeChild(this.redpacketcon);
+        this.snatchRedpacket();
     }
 
 }

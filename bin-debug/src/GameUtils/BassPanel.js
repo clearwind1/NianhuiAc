@@ -36,9 +36,6 @@ var GameUtil;
         GameScene.init = function (stage) {
             this.MainStage = stage;
         };
-        GameScene.getStage = function () {
-            return this.MainStage;
-        };
         /**
          * 切换场景
          * @param scene {egret.DisplayObjectContainer} 所要切换到的场景
@@ -74,6 +71,8 @@ var GameUtil;
                     this.nextScene.x = -this.MainStage.stageWidth;
                     egret.Tween.get(this.curScene).to({ x: this.MainStage.stageWidth }, duration);
                     egret.Tween.get(this.nextScene).to({ x: 0 }, duration);
+                }
+                if (transtype == GameUtil.GameConfig.OpenDoor) {
                 }
                 var local = this;
                 egret.setTimeout(function () {

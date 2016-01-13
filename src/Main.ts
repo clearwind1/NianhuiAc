@@ -40,10 +40,17 @@ class Main extends egret.DisplayObjectContainer {
     }
 
     private onAddToStage(event:egret.Event) {
-        //设置加载进度界面
 
-        GameUtil.GameScene.init(this.stage);
-        GameUtil.GameScene.runscene(new GameUtil.LoadingPanel(this.createGameScene,this));
+        var subs = GameUtil.getQueryString('subscribe');
+        GameData.getInstance().UserInfo['openid'] = GameUtil.getQueryString('openid');
+        if (subs == '1') {
+            //设置加载进度界面
+            GameUtil.GameScene.init(this.stage);
+            GameUtil.Http.getinstance();
+            GameUtil.GameScene.runscene(new GameUtil.LoadingPanel(this.createGameScene, this));
+        } else {
+            window.location.href = "launcher/test.html";
+        }
 
     }
 

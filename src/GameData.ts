@@ -1,14 +1,17 @@
 /**
+ * 游戏数据
  * Created by pior on 16/1/7.
  */
 
 class GameData
 {
-
+    //用户信息，ID，姓名，性别，是否投过票，openid
     public UserInfo:Object = {
-        'ID':0,
+        'ID':'',
         'Name':'',
-        'Sex':''
+        'Sex':'',
+        'Isvote':0,
+        'openid':''
     };
 
     public constructor()

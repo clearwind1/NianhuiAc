@@ -43,11 +43,6 @@ module GameUtil
             this.MainStage = stage;
         }
 
-        public static getStage():egret.Stage
-        {
-            return this.MainStage;
-        }
-
         /**
          * 切换场景
          * @param scene {egret.DisplayObjectContainer} 所要切换到的场景
@@ -96,6 +91,10 @@ module GameUtil
 
                     egret.Tween.get(this.curScene).to({x:this.MainStage.stageWidth},duration);
                     egret.Tween.get(this.nextScene).to({x:0},duration);
+                }
+                if(transtype == GameConfig.OpenDoor)
+                {
+
                 }
 
                 var local = this;
